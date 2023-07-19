@@ -1,0 +1,17 @@
+.items_list {
+  /* border: 3px solid red; */
+  max-width: 50vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  list-style: none;
+}
+hr {
+  width:47.5vw;
+  height: 1px;
+  background: #fff;
+}
