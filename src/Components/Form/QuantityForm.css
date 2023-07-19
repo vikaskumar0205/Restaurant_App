@@ -1,0 +1,34 @@
+
+.add_quantity_form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  height: 54px;
+}
+
+.quantity_form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 1px solid black; */
+  width: 112px;
+}
+
+.quantity_form__quantity {
+  border: 1px solid rgb(124, 118, 118);
+  width: 36px;
+  border-radius: 5px;
+}
+.quantity_form__amount {
+  font-weight: 700;
+}
+
+button {
+  padding: 0.2rem 1.5rem;
+  border-radius: 20px;
+  background-color: rgb(129, 28, 15);
+  color: white;
+  font-weight: 600;
+}

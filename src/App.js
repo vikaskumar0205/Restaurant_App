@@ -26,7 +26,15 @@ const App = ()=> {
       title:'French Fries',
       desc:'We used frechy masale',
       price:89.99,
+    },
+    
+    {
+      id:uuidv4(),
+      title:'French Fries',
+      desc:'We used frechy masale',
+      price:89.99,
     }
+
   ]
 
   return (<div>
