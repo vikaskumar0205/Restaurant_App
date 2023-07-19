@@ -1,0 +1,29 @@
+
+.summary {
+  /* border: 3px solid red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  max-width: 40vw;
+  margin: 10% auto;
+  text-align: center;
+  background-color: rgb(84, 79, 70);
+  color: white;
+  font-weight: 600;
+  border-radius: 12px;
+  box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.5);
+}
+
+.summary:hover {
+  border: 2px solid rgb(148, 78, 78);
+  background-color: rgb(100, 125, 147);
+}
+
+.summary_paragraph_1 {
+  margin:1vh 1vh;
+}
+
+.summary_paragraph_2 {
+  margin: 1vh 3vh 3vh;
+}
