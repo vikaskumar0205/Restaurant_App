@@ -5,9 +5,11 @@ const ItemList = (props) => {
   return (
     <ul className="items_list">
       {props.items.map((item, index) => (
-        <li>
+        <li key={item.id} id={item.id}>
           <Item title={item.title} desc={item.desc} price={item.price} />
-          {index!==(props.items.length-1) && <hr style={{ backgroundColor: "red" }} />}
+          {index !== props.items.length - 1 && (
+            <hr style={{ backgroundColor: "red" }} />
+          )}
         </li>
       ))}
     </ul>
