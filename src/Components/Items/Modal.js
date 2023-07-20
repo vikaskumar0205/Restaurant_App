@@ -7,7 +7,7 @@ const Modal = (props) => {
   return (
     <React.Fragment>
       {ReactDOM.createPortal(
-        <OrderItem>{props.children}</OrderItem>,
+        <OrderItem onCloseCart={props.onCloseCart}>{props.children}</OrderItem>,
         document.getElementById("order_item")
       )}
     </React.Fragment>

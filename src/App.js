@@ -1,3 +1,5 @@
+
+import React, {useState} from "react";
 import "./App.css";
 import Header from "./Components/Header/Header";
 import ItemList from "./Components/Items/ItemList";
@@ -6,6 +8,8 @@ import { v4 as uuidv4 } from "uuid";
 import Modal from "./Components/Items/Modal";
 
 const App = () => {
+   const [isCartClick, setIsCartClick] = useState(false);
+
   const items = [
     {
       id: uuidv4(),
@@ -36,13 +40,22 @@ const App = () => {
     },
   ];
 
+  const cartClickHandler=()=> {
+    setIsCartClick(true);
+  }
+  const cartCloseButtonHandler=()=> {
+    setIsCartClick(false);
+  }
+  
+  let appClass = `app ${isCartClick?'hidden':''}`;
+
   return (
     <div className="app">
-      <div className="app_modal">
-        <Modal items={items} />
-      </div>
-      <div className="app_hidden">
-        <Header />
+      {isCartClick && <div className="app_modal">
+        <Modal items={items} onCloseCart={cartCloseButtonHandler}/>
+      </div>}
+      <div className={appClass}>
+        <Header onClickCart={cartClickHandler}/>
         <div className="app_summary">
           <Summary />
         </div>

@@ -18,13 +18,13 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 12%;
+  width: 170px;
   font-size:1.1rem;
   font-weight: 800;
   border-radius: 30px;
   background-color: rgba(52, 24, 12, 0.696);
 
-  padding:0.8rem 3rem;
+  padding:0.6rem 3rem;
   color: rgb(225, 211, 211);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 
