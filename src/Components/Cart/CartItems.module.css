@@ -1,0 +1,45 @@
+.cart-items {
+  max-height: 15rem;
+  overflow-y:scroll;
+  max-width: 95%;
+  margin-left: 1rem;
+}
+
+.cart-item {
+  border-bottom: 1px solid rgb(189, 173, 173);
+  position: relative;
+  max-width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.changed-button {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+button {
+  padding: 0.1rem 0.6rem;
+  border-radius: 8px;
+  
+}
+.decrease {
+  font-size: 5rem;
+}
+
+.amount {
+  font-weight: bold;
+  color: brown;
+}
+
+.delete {
+  color: brown;
+}
+
+.empty {
+  text-align: center;
+  color: brown;
+}

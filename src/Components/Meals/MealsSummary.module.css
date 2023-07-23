@@ -1,0 +1,32 @@
+.summary {
+  position: relative;
+  max-width: 45rem;
+  width: 90%;
+  margin: auto;
+  margin-top: -11rem;
+  color: white;
+  background-color: #383838;
+  box-shadow: 0px 1px 18px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.about {
+  font-size: 1.05rem;
+}
+
+.quality {
+  margin: 0.4rem 3rem;
+  margin-bottom: 2rem;
+  font-size: 1.05rem;
+
+}
+
+.summary h2 {
+  font-size: 2rem;
+  margin-top: 0;
+}

@@ -1,0 +1,36 @@
+li {
+  list-style: none; 
+   
+}
+
+.meal-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* flex-direction: column; */
+  
+}
+
+.name {
+  font-weight: bold;
+}
+
+.desc {
+  font-style: italic;
+  font-size: 0.85rem;
+}
+
+.price {
+  font-weight: bold;
+  color: rgb(190, 5, 5);
+  
+}
+
+hr {
+  width: 95%;
+  font-size: 0.2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: -1px;
+  border: 1px solid rgb(237, 218, 218);
+}
