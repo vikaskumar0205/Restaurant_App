@@ -11,8 +11,9 @@
   max-width: 90%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   text-align: center;
+  flex-direction: column;
 }
 
 .changed-button {
@@ -42,4 +43,16 @@ button {
 .empty {
   text-align: center;
   color: brown;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  width: 30vw;
+  align-items: center;
+}
+
+.name {
+  font-weight: bold;
+  margin-top: 1rem;
 }
